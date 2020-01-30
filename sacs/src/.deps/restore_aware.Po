@@ -1,0 +1,457 @@
+restore_aware.o: restore_aware.c /usr/include/stdc-predef.h \
+ rewrite_phase.h destor.h /usr/include/stdlib.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/byteswap-16.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/sys/time.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/dirent.h \
+ /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/sys/stat.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/setjmp.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/assert.h \
+ /usr/include/inttypes.h /usr/include/sys/socket.h /usr/include/sys/uio.h \
+ /usr/include/bits/uio.h /usr/include/bits/socket.h \
+ /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \
+ /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
+ /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
+ /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/include/bits/in.h /usr/include/openssl/sha.h \
+ /usr/include/openssl/e_os2.h /usr/include/openssl/opensslconf.h \
+ /usr/include/openssl/opensslconf-x86_64.h /usr/local/include/glib.h \
+ /usr/local/include/glib/galloca.h /usr/local/include/glib/gtypes.h \
+ /usr/local/include/glibconfig.h /usr/local/include/glib/gmacros.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix2_lim.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/float.h \
+ /usr/local/include/glib/gversionmacros.h \
+ /usr/local/include/glib/garray.h /usr/local/include/glib/gasyncqueue.h \
+ /usr/local/include/glib/gthread.h /usr/local/include/glib/gatomic.h \
+ /usr/local/include/glib/gerror.h /usr/local/include/glib/gquark.h \
+ /usr/local/include/glib/gbacktrace.h /usr/include/signal.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigthread.h /usr/local/include/glib/gbase64.h \
+ /usr/local/include/glib/gbitlock.h \
+ /usr/local/include/glib/gbookmarkfile.h /usr/local/include/glib/gbytes.h \
+ /usr/local/include/glib/gcharset.h /usr/local/include/glib/gchecksum.h \
+ /usr/local/include/glib/gconvert.h /usr/local/include/glib/gdataset.h \
+ /usr/local/include/glib/gdate.h /usr/local/include/glib/gdatetime.h \
+ /usr/local/include/glib/gtimezone.h /usr/local/include/glib/gdir.h \
+ /usr/local/include/glib/genviron.h /usr/local/include/glib/gfileutils.h \
+ /usr/local/include/glib/ggettext.h /usr/local/include/glib/ghash.h \
+ /usr/local/include/glib/glist.h /usr/local/include/glib/gmem.h \
+ /usr/local/include/glib/gnode.h /usr/local/include/glib/ghmac.h \
+ /usr/local/include/glib/gchecksum.h /usr/local/include/glib/ghook.h \
+ /usr/local/include/glib/ghostutils.h \
+ /usr/local/include/glib/giochannel.h /usr/local/include/glib/gmain.h \
+ /usr/local/include/glib/gpoll.h /usr/local/include/glib/gslist.h \
+ /usr/local/include/glib/gstring.h /usr/local/include/glib/gunicode.h \
+ /usr/local/include/glib/gutils.h /usr/local/include/glib/gkeyfile.h \
+ /usr/local/include/glib/gmappedfile.h /usr/local/include/glib/gmarkup.h \
+ /usr/local/include/glib/gmessages.h /usr/local/include/glib/goption.h \
+ /usr/local/include/glib/gpattern.h /usr/local/include/glib/gprimes.h \
+ /usr/local/include/glib/gqsort.h /usr/local/include/glib/gqueue.h \
+ /usr/local/include/glib/grand.h /usr/local/include/glib/gregex.h \
+ /usr/local/include/glib/gscanner.h /usr/local/include/glib/gsequence.h \
+ /usr/local/include/glib/gshell.h /usr/local/include/glib/gslice.h \
+ /usr/local/include/glib/gspawn.h /usr/local/include/glib/gstrfuncs.h \
+ /usr/local/include/glib/gstringchunk.h \
+ /usr/local/include/glib/gtestutils.h \
+ /usr/local/include/glib/gthreadpool.h /usr/local/include/glib/gtimer.h \
+ /usr/local/include/glib/gtrashstack.h /usr/local/include/glib/gtree.h \
+ /usr/local/include/glib/gurifuncs.h \
+ /usr/local/include/glib/gvarianttype.h \
+ /usr/local/include/glib/gvariant.h /usr/local/include/glib/gversion.h \
+ /usr/local/include/glib/deprecated/gallocator.h \
+ /usr/local/include/glib/deprecated/gcache.h \
+ /usr/local/include/glib/deprecated/gcompletion.h \
+ /usr/local/include/glib/deprecated/gmain.h \
+ /usr/local/include/glib/deprecated/grel.h \
+ /usr/local/include/glib/deprecated/gthread.h utils/sds.h \
+ storage/containerstore.h storage/../destor.h utils/lru_cache.h
+
+/usr/include/stdc-predef.h:
+
+rewrite_phase.h:
+
+destor.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/dirent.h:
+
+/usr/include/bits/dirent.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/assert.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/socket_type.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/openssl/sha.h:
+
+/usr/include/openssl/e_os2.h:
+
+/usr/include/openssl/opensslconf.h:
+
+/usr/include/openssl/opensslconf-x86_64.h:
+
+/usr/local/include/glib.h:
+
+/usr/local/include/glib/galloca.h:
+
+/usr/local/include/glib/gtypes.h:
+
+/usr/local/include/glibconfig.h:
+
+/usr/local/include/glib/gmacros.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/float.h:
+
+/usr/local/include/glib/gversionmacros.h:
+
+/usr/local/include/glib/garray.h:
+
+/usr/local/include/glib/gasyncqueue.h:
+
+/usr/local/include/glib/gthread.h:
+
+/usr/local/include/glib/gatomic.h:
+
+/usr/local/include/glib/gerror.h:
+
+/usr/local/include/glib/gquark.h:
+
+/usr/local/include/glib/gbacktrace.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/local/include/glib/gbase64.h:
+
+/usr/local/include/glib/gbitlock.h:
+
+/usr/local/include/glib/gbookmarkfile.h:
+
+/usr/local/include/glib/gbytes.h:
+
+/usr/local/include/glib/gcharset.h:
+
+/usr/local/include/glib/gchecksum.h:
+
+/usr/local/include/glib/gconvert.h:
+
+/usr/local/include/glib/gdataset.h:
+
+/usr/local/include/glib/gdate.h:
+
+/usr/local/include/glib/gdatetime.h:
+
+/usr/local/include/glib/gtimezone.h:
+
+/usr/local/include/glib/gdir.h:
+
+/usr/local/include/glib/genviron.h:
+
+/usr/local/include/glib/gfileutils.h:
+
+/usr/local/include/glib/ggettext.h:
+
+/usr/local/include/glib/ghash.h:
+
+/usr/local/include/glib/glist.h:
+
+/usr/local/include/glib/gmem.h:
+
+/usr/local/include/glib/gnode.h:
+
+/usr/local/include/glib/ghmac.h:
+
+/usr/local/include/glib/gchecksum.h:
+
+/usr/local/include/glib/ghook.h:
+
+/usr/local/include/glib/ghostutils.h:
+
+/usr/local/include/glib/giochannel.h:
+
+/usr/local/include/glib/gmain.h:
+
+/usr/local/include/glib/gpoll.h:
+
+/usr/local/include/glib/gslist.h:
+
+/usr/local/include/glib/gstring.h:
+
+/usr/local/include/glib/gunicode.h:
+
+/usr/local/include/glib/gutils.h:
+
+/usr/local/include/glib/gkeyfile.h:
+
+/usr/local/include/glib/gmappedfile.h:
+
+/usr/local/include/glib/gmarkup.h:
+
+/usr/local/include/glib/gmessages.h:
+
+/usr/local/include/glib/goption.h:
+
+/usr/local/include/glib/gpattern.h:
+
+/usr/local/include/glib/gprimes.h:
+
+/usr/local/include/glib/gqsort.h:
+
+/usr/local/include/glib/gqueue.h:
+
+/usr/local/include/glib/grand.h:
+
+/usr/local/include/glib/gregex.h:
+
+/usr/local/include/glib/gscanner.h:
+
+/usr/local/include/glib/gsequence.h:
+
+/usr/local/include/glib/gshell.h:
+
+/usr/local/include/glib/gslice.h:
+
+/usr/local/include/glib/gspawn.h:
+
+/usr/local/include/glib/gstrfuncs.h:
+
+/usr/local/include/glib/gstringchunk.h:
+
+/usr/local/include/glib/gtestutils.h:
+
+/usr/local/include/glib/gthreadpool.h:
+
+/usr/local/include/glib/gtimer.h:
+
+/usr/local/include/glib/gtrashstack.h:
+
+/usr/local/include/glib/gtree.h:
+
+/usr/local/include/glib/gurifuncs.h:
+
+/usr/local/include/glib/gvarianttype.h:
+
+/usr/local/include/glib/gvariant.h:
+
+/usr/local/include/glib/gversion.h:
+
+/usr/local/include/glib/deprecated/gallocator.h:
+
+/usr/local/include/glib/deprecated/gcache.h:
+
+/usr/local/include/glib/deprecated/gcompletion.h:
+
+/usr/local/include/glib/deprecated/gmain.h:
+
+/usr/local/include/glib/deprecated/grel.h:
+
+/usr/local/include/glib/deprecated/gthread.h:
+
+utils/sds.h:
+
+storage/containerstore.h:
+
+storage/../destor.h:
+
+utils/lru_cache.h:
